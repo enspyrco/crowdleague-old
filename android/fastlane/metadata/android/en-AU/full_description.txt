@@ -1,1 +1,0 @@
-CrowdLeague is a platform for crowd sourcing sports leagues.

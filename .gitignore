@@ -8,6 +8,7 @@
 .buildlog/
 .history
 .svn/
+migrate_working_dir/
 
 # IntelliJ related
 *.iml
@@ -22,16 +23,13 @@
 
 # Flutter/Dart/Pub related
 **/doc/api/
+**/ios/Flutter/.last_build_id
 .dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies
-.packages
 .pub-cache/
 .pub/
 /build/
-
-# Web related
-lib/generated_plugin_registrant.dart
 
 # Symbolication related
 app.*.symbols
@@ -39,30 +37,7 @@ app.*.symbols
 # Obfuscation related
 app.*.map.json
 
-# Exceptions to above rules.
-!/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
-
-############ added ignores 
-
-# generated files 
-*.g.dart
-# don't add project credentials to version control
-ios/Runner/GoogleService-Info.plist
-android/app/google-services.json
-# don't add maps api keys file to version control
-ios/Flutter/MapsKey.xcconfig
-# Android keystore for release 
-android/app/keystore.jks
-android/app/keystore.config
-# fastlane match service acc json key 
-ios/gc_keys.json
-# fastlane android service acc json key 
-android/crowdleague-fastlane-manager.json
-# Flutter/Dart/Pub related
-ios/Flutter/.last_build_id
-# Fastlane reports
-ios/fastlane/report.xml
-# credential for admin SDK to use when running functions locally for testing
-functions/firebase-functions-admin-key.json
-# don't mess with a person's vscode settings 
-.vscode/settings.json
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release

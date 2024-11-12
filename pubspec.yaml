@@ -1,61 +1,21 @@
 name: crowdleague
-description: A platform for crowd sourcing sports leagues.
+description: "Be in a league of your own..."
+publish_to: 'none'
 
-version: 0.0.1+1
+version: 0.0.2+1
 
 environment:
-  sdk: ">=2.7.0 <3.0.0"
+  sdk: ^3.5.4
 
 dependencies:
   flutter:
     sdk: flutter
 
-  built_value:
-  built_collection:
-  redux:
-  flutter_redux:
-
-  firebase_auth:
-  google_sign_in:
-  sign_in_with_apple:
-
-  firebase_core:
-  cloud_firestore:
-  firebase_messaging:
-  google_maps_flutter:
-  firebase_storage:
-  image_picker:
-  uuid:
-  permission_handler:
-
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_driver:
-    sdk: flutter
-  screenshots:
-  flutter_launcher_icons:
-  build_runner:
-  built_value_generator:
-  redux_remote_devtools:
-  pedantic:
-  test:
-  mockito:
+
+  flutter_lints: ^4.0.0
 
 flutter:
   uses-material-design: true
-
-  assets:
-    - assets/images/logo-300-greyscale.png
-    - assets/images/facebook_logo.png
-    - assets/images/twitter_logo.png
-    - assets/images/google_logo.png
-    - assets/images/google_logo_greyscale.png
-    - assets/images/apple_logo_black.png
-    - assets/images/apple_logo_white.png
-
-# for auto generating the app launcher icons
-flutter_icons:
-  android: true
-  ios: true
-  image_path: "assets/images/logo-1024-white-bg.png"
